@@ -57,7 +57,7 @@ namespace Rock_Paper_Scissors
 					}
 					else if (playerChoice == "q")
 					{
-                        Console.WriteLine($"The final scores is Player: {playerCounter} : Computer: {computerCounter}");
+                        Console.WriteLine($"The final scores is Player: {playerCounter} : Computer: {computerCounter}"); //shows final game scores
                         Thread.Sleep(1000);
                         i++;
 					}
@@ -71,7 +71,7 @@ namespace Rock_Paper_Scissors
 				{
 					Console.WriteLine("Bad input!");
 				}
-                Console.WriteLine($"The scores is Player: {playerCounter} : Computer: {computerCounter}\n");
+                Console.WriteLine($"The scores is Player: {playerCounter} : Computer: {computerCounter}\n"); //shows current game scores
             }
 		}
 	}
