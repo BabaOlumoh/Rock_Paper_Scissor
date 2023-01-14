@@ -73,7 +73,6 @@ namespace Rock_Paper_Scissors
 				}
                 Console.WriteLine($"The scores is Player: {playerCounter} : Computer: {computerCounter}\n");
             }
-			
 		}
 	}
 }
